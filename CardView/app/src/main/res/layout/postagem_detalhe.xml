@@ -31,9 +31,10 @@
                 android:text="Agora mesmo" />
 
             <ImageView
-                android:id="@+id/img1"
+                android:id="@+id/imgPostagem"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
+                android:layout_marginTop="10dp"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/imagem1" />
 
@@ -41,6 +42,7 @@
                 android:id="@+id/idTituloPostagem"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="#tbt Viagem Legal1" />
 
         </LinearLayout>
@@ -51,18 +53,24 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnGostei"
+                style="?attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:drawableLeft="@drawable/ic_gostei_24dp"
+                android:text="Gostei"
+                android:textColor="@color/pink" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnComentar"
+                style="?attr/buttonBarButtonStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:drawableLeft="@drawable/ic_comentario_24"
+                android:text="Comentar"
+                android:textColor="@color/pink" />
         </LinearLayout>
     </LinearLayout>
 

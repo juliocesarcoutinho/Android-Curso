@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/jcoutinho/Documents/GitHub/Android/CardView/app/src/main/res/drawable/ic_comentario_24.xml" value="0.285" />
+        <entry key="..\:/Users/jcoutinho/Documents/GitHub/Android/CardView/app/src/main/res/drawable/ic_gostei_24dp.xml" value="0.285" />
         <entry key="..\:/Users/jcoutinho/Documents/GitHub/Android/CardView/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/jcoutinho/Documents/GitHub/Android/CardView/app/src/main/res/layout/postagem_detalhe.xml" value="0.365625" />
       </map>

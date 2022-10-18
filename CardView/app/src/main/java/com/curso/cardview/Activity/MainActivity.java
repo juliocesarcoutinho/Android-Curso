@@ -9,10 +9,13 @@ import android.os.Bundle;
 import com.curso.cardview.Adapter.PostagemAdapter;
 import com.curso.cardview.R;
 
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
 
     private RecyclerView recyclerPostagem;
+    private List<  > postagens;
 
 
     @Override
