@@ -8,5 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="fundo_app">#65BC8D</color>
-    <color name="primaria">#3b8c60</color>
+    <color name="primaria">#3B8C60</color>
+    <color name="statusBar">#0f5c31</color>
 </resources>
