@@ -23,7 +23,17 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-
+                Snackbar.make(
+                    view,
+                    "Botão Pressionado",
+                    Snackbar.LENGTH_LONG
+                ).setAction("Confirmar", new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                buttonAbrir.setText("Botão alterado");
+                            }
+                        }).setActionTextColor( getResources().getColor(R.color.teal_200) )
+                        .show();
 
             }
         });
