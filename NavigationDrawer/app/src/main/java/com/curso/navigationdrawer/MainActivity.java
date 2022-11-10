@@ -38,15 +38,19 @@ public class MainActivity extends AppCompatActivity {
         });
 
         DrawerLayout drawer = binding.drawerLayout;
+        // Cria Referencia para a barra de navegação
         NavigationView navigationView = binding.navView;
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
+
+        // Define configurações do navigation drawer
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.compartilhar, R.id.enviar)
+                R.id.nav_home, R.id.nav_galeria, R.id.nav_slideshow, R.id.nav_compartilhar, R.id.nav_enviar, R.id.nav_contato)
                 .setOpenableLayout(drawer)
                 .build();
+        // Configura area que carrega os fragments
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
+        //Configura menu superior
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
+        //Configura a navegação para o action view
         NavigationUI.setupWithNavController(navigationView, navController);
     }
 

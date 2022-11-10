@@ -12,10 +12,10 @@ import com.curso.navigationdrawer.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link compartilhar#newInstance} factory method to
+ * Use the {@link CompartilharFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class compartilhar extends Fragment {
+public class CompartilharFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class compartilhar extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public compartilhar() {
+    public CompartilharFragment() {
         // Required empty public constructor
     }
 
@@ -39,8 +39,8 @@ public class compartilhar extends Fragment {
      * @return A new instance of fragment compartilhar.
      */
     // TODO: Rename and change types and number of parameters
-    public static compartilhar newInstance(String param1, String param2) {
-        compartilhar fragment = new compartilhar();
+    public static CompartilharFragment newInstance(String param1, String param2) {
+        CompartilharFragment fragment = new CompartilharFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);

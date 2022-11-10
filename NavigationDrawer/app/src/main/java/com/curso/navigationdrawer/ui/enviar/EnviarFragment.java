@@ -12,10 +12,10 @@ import com.curso.navigationdrawer.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link enviar#newInstance} factory method to
+ * Use the {@link EnviarFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class enviar extends Fragment {
+public class EnviarFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class enviar extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public enviar() {
+    public EnviarFragment() {
         // Required empty public constructor
     }
 
@@ -39,8 +39,8 @@ public class enviar extends Fragment {
      * @return A new instance of fragment enviar.
      */
     // TODO: Rename and change types and number of parameters
-    public static enviar newInstance(String param1, String param2) {
-        enviar fragment = new enviar();
+    public static EnviarFragment newInstance(String param1, String param2) {
+        EnviarFragment fragment = new EnviarFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
